@@ -49,8 +49,8 @@ Edit `terraform.tfvars` to personalize your deployment:
 
 ```hcl
 # Example terraform.tfvars
-resource_group_name = "rg-yourname-devops"
-location           = "East US"
+resource_group_name = "< Your Resource Group>"
+location           = "< Set Location>"
 container_name     = "my-webapp"
 ```
 
@@ -73,10 +73,9 @@ terraform apply
 After deployment completes:
 
 ```bash
-# Get your application's public IP
-terraform output container_ip
 
-# Open in browser
+# Open 
+in browser
 # http://YOUR_IP_ADDRESS
 ```
 
