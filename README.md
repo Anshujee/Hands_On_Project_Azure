@@ -36,7 +36,7 @@ my-first-infrastructure/
 ```bash
 # Clone or download this project
 git clone <repository-url>
-cd my-first-infrastructure
+cd project_1
 
 # Login to Azure
 az login
